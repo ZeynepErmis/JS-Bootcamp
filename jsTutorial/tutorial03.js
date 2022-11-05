@@ -52,7 +52,6 @@ console.log(person['na' + 'me']); // 'na' + 'me' --> 'name' */
         return this.name + " " + this.surname
     }
 }
-
 person.address = {};
 console.log(person);
 person.address.city = "London";
@@ -87,7 +86,7 @@ function Person(name, surname, age) {
 // new --> creates an empty object
 const person1 = new Person("John", "Doe", 40);
 console.log(person1);
- */
+*/
 
 
 // OBJECT CONSTRUCTOR
@@ -100,7 +99,6 @@ person1.fullName = function () {
     console.log(this);
     return this.name + " " + this.surname
 }
-
 console.log(person1.fullName()); */
 
 
