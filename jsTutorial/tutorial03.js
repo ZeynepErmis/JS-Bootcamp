@@ -101,7 +101,7 @@ person1.fullName = function () {
 }
 console.log(person1.fullName()); */
 
-
+/* 
 // creating object with Object.create() 
 const person = {
     name: 'John',
@@ -121,4 +121,4 @@ Jack.surname = 'William';
 Jack.age = 35;
 
 console.log(Jack);
-console.log(Jack.fullName());
+console.log(Jack.fullName()); */
