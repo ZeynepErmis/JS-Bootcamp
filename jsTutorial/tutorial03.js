@@ -1,4 +1,4 @@
-//OBJECTS (collection of properties)
+//OBJECTS (collection of properties (key and value))
 
 //property --> name surname
 //method --> fullName (functions which in the object are called methods)
