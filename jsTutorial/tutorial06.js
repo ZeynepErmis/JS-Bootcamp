@@ -4,7 +4,7 @@
 
 /*  function Person(name, surname, age) {
     this.name = name;
-    this.surnam = surname;
+    this.surname = surname;
     this.age = age;
     //this.fullName = fullName;
 } */
@@ -38,17 +38,17 @@ console.log(person2.friends);
 
 /* function Person(name, surname, age) {
     this.name = name;
-    this.surnam = surname;
+    this.surname = surname;
     this.age = age;
     this.fullName = fullName;
 }  */
 
 
-//CLASS DECLERATION
+//CLASS DECLARATION
 /* class Person {
     constructor(name, surname, age) {
         this.name = name;
-        this.surnam = surname;
+        this.surname = surname;
         this.age = age;
         this.friends = ["X", "Y"];
     }
@@ -63,7 +63,7 @@ console.log(person2.friends);
 /* const Person = class {
     constructor(name, surname, age) {
         this.name = name;
-        this.surnam = surname;
+        this.surname = surname;
         this.age = age;
         this.friends = ["X", "Y"];
     }

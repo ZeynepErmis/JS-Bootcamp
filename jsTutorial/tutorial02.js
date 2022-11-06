@@ -1,6 +1,6 @@
 //FUNCTIONS
 
-//FUNCTION DECLERATION //statement
+//FUNCTION DECLARATION //statement
 
 /* function square(num) { //num variable called a parameter
     return (num * num);
@@ -17,7 +17,7 @@
 // invoke --> ()
 //console.log(square(4));
 
-//FUNCTION DECLERATION --> HOISTED  console.log(square(3));
+//FUNCTION DECLARATION --> HOISTED  console.log(square(3));
 
 //Function Expression, function name is generally optinal
 /* const square = function square(num) {
