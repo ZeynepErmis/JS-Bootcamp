@@ -144,7 +144,7 @@ class Engineer extends Person {
     }
 }; */
 
-class ExtendedArray extends Array {
+/* class ExtendedArray extends Array {
     shuffle() {
         this.sort(() => Math.random() - 0.5);
     }
@@ -157,3 +157,4 @@ console.log(myArr instanceof Array);
 console.log(myArr);
 myArr.shuffle();
 console.log(myArr);
+ */
