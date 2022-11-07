@@ -118,12 +118,12 @@ console.log(person1.mother.fullName()); */
         console.log(this === window);
     }
 }
-
 //console.log(person2.funcy());
 const funcy2 = person2.funcy;
 console.log(funcy2()); */
 
-/* const person2 = {
+/* 
+ const person2 = {
     name: "Rana",
     funcy: function() {
         console.log(this === person2);
@@ -134,4 +134,4 @@ console.log(funcy2()); */
     }
 }
 
-console.log(person2.funcy()); */
+console.log(person2.funcy());  */
