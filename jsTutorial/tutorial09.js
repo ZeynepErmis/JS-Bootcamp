@@ -44,9 +44,9 @@ person.tellName(); */
 //Arrow functions don't have their own “this”, 
 //and they don’t redefine the value of “this ”within the function.
 //this inside an arrow function always refers to this from the outer context. 
-/* var variable = “Global Level Variable”;
+var variable = "Global Level Variable";
 let myObject = { 
- variable: “Object Level Variable”, 
+ variable: "Object Level Variable", 
 // PRINTS Global Level Variable
 arrowFunction:() => { 
  console.log(this.variable); 
@@ -57,7 +57,7 @@ regularFunction(){
  } 
 };
 myObject.arrowFunction(); 
-myObject.regularFunction(); */
+myObject.regularFunction(); 
 
 /* window.name = "Zeynep";
 
@@ -78,7 +78,8 @@ const person = {
 
 person.tellName();  */
 
-/* window.name = "Zeynep";
+
+/*  window.name = "Zeynep";
 
 const person = {
     name: "John",
@@ -93,9 +94,8 @@ const person = {
     }
 }
 
-person.tellName();  */
+person.tellName();   */
 
-//!!ANLAMADIM
 /* window.name = "Zeynep";
 
 const person = {
@@ -111,8 +111,7 @@ const person = {
     }
 }
 
-person.tellName();  */
-
+person.tellName();  */ 
 //cannot use constructor function as an arrow function. 
 //Reason arrow func. doesn't have this its own.
 
@@ -126,7 +125,7 @@ person.tellName();  */
 }
 
 const person1 = new Person("John", "Doe", 40);
-console.log(person1); */
+console.log(person1); 
 
 /* window.year = 100;
 
