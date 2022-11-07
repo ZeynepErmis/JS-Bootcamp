@@ -14,16 +14,13 @@
     fullName() {
         return this.name + " " + this.surname;
     }
+
     //Static class methods are defined on the class itself. 
     //You cannot call a static method on an object, only on an object class
-
     static showName = "Person";
-
     static staMethod() {
         console.log("This is an example of static method");
     }
-
-
 }
 
 const person1 = new Person("John", "Doe", 40);
@@ -45,7 +42,6 @@ console.log(person2.fullName()); */
 
 /* console.log(Person.showName);
 console.log(Person.staMethod()); */
-
 
 //One of reason for the need for class in object-oriented programming:
 //It makes the job easier to break down the problems as much as possible. 
@@ -71,7 +67,6 @@ class Person {
 
 //Engineer --> Subclass (child) - Person Superclass (parent)
 /* class Engineer extends Person {};
-
 const person1 = new Engineer("Zeynep", "Ermis", 21);
 const person2 = new Person("John", "Doe", 40); */
 
