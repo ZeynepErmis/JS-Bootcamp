@@ -58,5 +58,62 @@ function average(x, y) {
 let x = average(6, 8);
 console.log(x); */
 
+/* function task(message) {
+    let n = 10000;
+    while (n > 10) {
+        n--
+    }
+    console.log(message);
+}
 
+console.log('1');
 
+setTimeout(() => {
+    //call back
+    console.log('2');
+}, 1000)
+
+console.log('3');
+console.log('4');
+
+task('Succesful');
+
+setTimeout(() => {
+    //call back
+    console.log('5');
+}, 2000)
+
+task('Succesful 2');
+ 
+
+//A callback is a function passed as an argument to another function
+
+/* const myName = () => {
+    console.log("Zeynep");
+}
+
+setTimeout(myName, 3000); */
+
+/* setTimeout(() => {
+    console.log("Zeynep");
+}, 3000) 
+ */
+
+/* const books = [
+    { name: "Pinball 1973", author: "Haruki Murakami" },
+    { name: "Freedom", author: "Zygmunt Bauman" },
+    { name: "X", author: "Y" }
+]
+
+const listBooks = () => {
+    books.map((book, index) => {
+        console.log(book, index)
+    })
+}
+
+const addNewBook = (newBook, callback) => {
+    books.push(newBook)
+    callback();
+}
+
+addNewBook({ name: "A", author: "B " }, listBooks); */
